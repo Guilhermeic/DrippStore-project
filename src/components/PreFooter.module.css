@@ -1,0 +1,33 @@
+
+section {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 50px;
+    align-items: flex-start;
+
+}
+
+.laye {
+    position: absolute;
+    width: 90%;
+    height: auto;
+    padding-top: 60px;
+    padding-right: 1000px;
+    left: 100px;
+    top: -30px;
+}
+
+.elipse {
+    width:400px;
+    height: auto;
+    padding-left: 35px;
+    padding-bottom: 15px;
+    position: relative;
+   
+}
+
+.shoesElipse {
+    display: flex;
+    padding-left: 200px;
+    position: relative;
+}
