@@ -1,4 +1,5 @@
-import styles from "../components/PreFooter.module.css"
+import styles from "../components/PreFooter.module.css";
+
 function PreFooter() {
     return (
         <>
@@ -9,13 +10,15 @@ function PreFooter() {
                 </div>
 
                 <div className={styles.oferta}>
-                    <p>Oferta especial</p>
+                    <p className={styles.offer}>Oferta especial</p>
                     <h1>Air Jordan edição de <br /> colecionador</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Saepe ullam id vel, quos necessitatibus repudiandae at mollitia corrupti <br /> sed accusamus ipsam nostrum iste molestias possimus quasi ab ipsa aperiam tempore.</p>
-               <input type="submit" name="Ver Oferta" id="" />
+                    <input className={styles.button} type="submit" value="Ver Oferta" />
                 </div>
             </section>
         </>
-    )
+    );
 }
-export default PreFooter
+
+export default PreFooter;
+

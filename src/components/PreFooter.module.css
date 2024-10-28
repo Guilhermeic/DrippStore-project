@@ -4,7 +4,6 @@ section {
     padding-top: 50px;
     padding-left: 50px;
     align-items: flex-start;
-
 }
 
 .laye {
@@ -12,22 +11,38 @@ section {
     width: 90%;
     height: auto;
     padding-top: 60px;
-    padding-right: 1000px;
     left: 100px;
     top: -30px;
 }
 
 .elipse {
-    width:400px;
+    width: 400px;
     height: auto;
     padding-left: 35px;
     padding-bottom: 15px;
-    position: relative;
-   
+    position: relative; 
 }
 
 .shoesElipse {
     display: flex;
     padding-left: 200px;
     position: relative;
+}
+
+.offer {
+    color: rgba(201, 32, 113, 1);
+    cursor: pointer;
+}
+
+.button {
+    background-color: rgba(201, 32, 113, 1);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    padding: 10px 20px;
+}
+.oferta{
+
 }
