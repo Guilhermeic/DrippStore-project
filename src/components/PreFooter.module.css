@@ -1,23 +1,23 @@
 
 section {
     display: flex;
-    padding-top: 50px;
-    padding-left: 50px;
-    align-items: flex-start;
+    margin: auto;
+    justify-content: center;
+    width: 1000px;
 }
 
 .laye {
     position: absolute;
-    width: 90%;
+    width: 573px;
     height: auto;
     padding-top: 60px;
     left: 100px;
     top: -30px;
+    
 }
 
 .elipse {
-    width: 400px;
-    height: auto;
+    width: 466px;
     padding-left: 35px;
     padding-bottom: 15px;
     position: relative; 
@@ -25,8 +25,9 @@ section {
 
 .shoesElipse {
     display: flex;
-    padding-left: 200px;
+    padding-left: 300px;
     position: relative;
+   
 }
 
 .offer {
