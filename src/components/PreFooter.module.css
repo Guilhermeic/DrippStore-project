@@ -3,7 +3,8 @@ section {
     display: flex;
     margin: auto;
     justify-content: center;
-    width: 1000px;
+    width: 1262px;
+    gap: 100px;
 }
 
 .laye {
@@ -11,21 +12,18 @@ section {
     width: 573px;
     height: auto;
     padding-top: 60px;
-    left: 100px;
-    top: -30px;
+    left: -75px;
+    top: -28px;
     
 }
 
 .elipse {
     width: 466px;
-    padding-left: 35px;
-    padding-bottom: 15px;
     position: relative; 
 }
 
 .shoesElipse {
     display: flex;
-    padding-left: 300px;
     position: relative;
    
 }
@@ -41,9 +39,8 @@ section {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
     padding: 10px 20px;
 }
 .oferta{
-
+    max-width: 589px;
 }
