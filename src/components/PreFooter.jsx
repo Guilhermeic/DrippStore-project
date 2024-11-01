@@ -11,9 +11,9 @@ function PreFooter() {
 
                 <div className={styles.oferta}>
                     <p className={styles.offer}>Oferta especial</p>
-                    <h1>Air Jordan edição de colecionador</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ullam id vel, quos necessitatibus repudiandae at mollitia corrupti sed accusamus ipsam nostrum iste molestias possimus quasi ab ipsa aperiam tempore.</p>
-                    <input className={styles.button} type="submit" value="Ver Oferta" />
+                    <p className={styles.jordan}>Air Jordan edição de colecionador</p>
+                    <p className={styles.textOffer}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ullam id vel, quos necessitatibus repudiandae at mollitia corrupti sed accusamus ipsam nostrum iste molestias possimus quasi ab ipsa aperiam tempore.</p>
+                    <input className={styles.seeOffer} type="submit" value="Ver Oferta" />
                 </div>
             </section>
         </>

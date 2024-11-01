@@ -1,46 +1,74 @@
-
 section {
     display: flex;
     margin: auto;
     justify-content: center;
-    width: 1262px;
+    width: 1440px;
     gap: 100px;
+    height: 553px;
 }
 
 .laye {
     position: absolute;
     width: 573px;
     height: auto;
-    padding-top: 60px;
+    /* padding-top: 60px; */
     left: -75px;
-    top: -28px;
-    
+    top: 75px;
+
 }
 
 .elipse {
     width: 466px;
-    position: relative; 
+    position: relative;
 }
 
 .shoesElipse {
     display: flex;
     position: relative;
-   
+
 }
 
 .offer {
     color: rgba(201, 32, 113, 1);
     cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
 }
 
-.button {
+.seeOffer {
     background-color: rgba(201, 32, 113, 1);
     color: white;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     padding: 10px 20px;
+    width: 200px;
+    height: 40px;
+    top: 3144px;
+    left: 692px;
 }
-.oferta{
+
+.oferta {
     max-width: 589px;
+}
+
+.jordan {
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    color: #474747;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+.textOffer {
+    font-family: 'Inter', sans-serif;
+    color: #474747;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
 }
