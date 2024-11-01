@@ -1,10 +1,10 @@
 import PreFooter from "./components/PreFooter.jsx"
-import Logo from "./components/Logo.jsx" 
+import Header from "./components/Header.jsx"
 
 function App() {
   return (
     <>
-      <Logo />
+      <Header />
       <PreFooter />
     </>
   )
