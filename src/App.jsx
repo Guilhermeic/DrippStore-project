@@ -1,11 +1,11 @@
-import PreFooter from "./components/PreFooter.jsx"
-import Header from "./components/Header.jsx"
+import Header from "./components/Header/Header"
+import PreFooter from "./components/PreFooter/PreFooter"
 
 function App() {
   return (
     <>
-      <Header />
-      <PreFooter />
+      <PreFooter/>
+      
     </>
   )
 }

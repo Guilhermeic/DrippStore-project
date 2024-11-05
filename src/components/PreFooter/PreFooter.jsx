@@ -1,4 +1,4 @@
-import styles from "../components/PreFooter.module.css";
+import styles from "../PreFooter/PreFooter.module.css"
 
 function PreFooter() {
     return (
